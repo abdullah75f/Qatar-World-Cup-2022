@@ -6,12 +6,17 @@ header {
   display: flex;
   height: 4rem;
   justify-content: space-between;
-  padding: 4px;
+  padding:  4px;
   border-bottom: solid 2px white;
- 
+  position:fixed;
+  width: 100%; 
+  z-index:1000;
+  background-color:black;
+  top:0px;
+  left:0px;
+  right:0px;
   
 }
-
 
 .logo {
   display: flex;
@@ -53,87 +58,74 @@ header {
   color: green;
 }
 
-
-
 .part1 {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  margin:10px;
-
+  margin: 10px;
 }
-.final-summary{
+.final-summary {
   margin: 0px;
-  padding:10px 10px;
-  width:550px;
-  background:rgb(3, 4, 39);
-  
+  padding: 10px 10px;
+  width: 550px;
+  background: rgb(3, 4, 39);
 }
-.final-summary p{
-  width:100%;
-  margin-bottom:20px;
-  padding:0px;
+.final-summary p {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0px;
 }
 
-.qatar-logo{
-  margin-top:100px;
+.qatar-logo {
+  margin-top: 100px;
   margin-left: 10px;
-  padding:10px;
-  width:700px;
-
+  padding: 10px;
+  width: 700px;
 }
-.qatar-logo img{
-  width:700px;
+.qatar-logo img {
+  width: 700px;
   margin-left: 0px;
 }
 
-
-.intro{
-  display:block;
-  color:white;
-  text-align:center;
+.intro {
+  display: block;
+  color: white;
+  text-align: center;
   margin-bottom: 0px;
-
 }
 
-.audio{
-  display:block;
-  text-align:center;
+.audio {
+  display: block;
+  text-align: center;
 }
 
-.stadiums{
-  display:flex;
-  gap:40px;
-  margin:10px 30px;
+.stadiums {
+  display: flex;
+  gap: 40px;
+  margin: 10px 30px;
   overflow-x: auto;
-  
-
 }
 
-.stadiums::-webkit-scrollbar{
+.stadiums::-webkit-scrollbar {
   height: 8px;
 }
 
-.stadiums::-webkit-scrollbar-thumb{
-  background:blue;
+.stadiums::-webkit-scrollbar-thumb {
+  background: blue;
 }
 
-.stadiums::-webkit-scrollbar-track{
+.stadiums::-webkit-scrollbar-track {
   background: gray;
 }
-.stadiums img{
-  width:700px;
-  
+.stadiums img {
+  width: 700px;
 }
 
-.stadiums h2{
-  font-size:50px;
+.stadiums h2 {
+  font-size: 50px;
   padding-left: 40px;
 }
 
-
-.stadiums p{
-  font-size:30px;
+.stadiums p {
+  font-size: 30px;
   padding-left: 40px;
-  
 }
-
