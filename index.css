@@ -63,14 +63,15 @@ header {
 }
 .final-summary{
   margin: 0px;
-  padding:0px;
-  width:700px;
+  padding:10px 10px;
+  width:550px;
   background:rgb(3, 4, 39);
+  
 }
 .final-summary p{
   width:100%;
   margin-bottom:20px;
-  padding:0;
+  padding:0px;
 }
 
 .qatar-logo{
