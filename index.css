@@ -129,3 +129,12 @@ header {
   font-size: 30px;
   padding-left: 40px;
 }
+
+
+.qualified-teams{
+  display:flex;
+  text-align:center;
+  justify-content:space-between;
+  margin:0px 100px;
+  
+}
