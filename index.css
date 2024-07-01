@@ -11,9 +11,7 @@ header {
   
 }
 
-main{
-  display:flex;
-}
+
 .logo {
   display: flex;
   align-items: center;
@@ -52,4 +50,14 @@ main{
 
 .navbar a:active {
   color: green;
+}
+
+main{
+  display:flex;
+}
+
+.intro{
+  display:block;
+  color:green;
+
 }
