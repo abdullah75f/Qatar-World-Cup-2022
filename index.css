@@ -138,3 +138,25 @@ header {
   margin:0px 100px;
   
 }
+
+
+.pot {
+  position: relative;
+  padding-left: 20px; 
+}
+
+.pot::before {
+  content: ""; 
+  position: absolute;
+  left: 0; 
+  top: 0; 
+  bottom: 0; 
+  width: 10px; 
+  background-color: white;
+}
+
+.qualify{
+  text-align:center;
+  padding-bottom:10px;
+
+}
