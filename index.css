@@ -104,7 +104,16 @@ header {
   display:flex;
   gap:40px;
   margin:10px 30px;
+  overflow-x: auto;
 
+}
+
+.stadiums::-webkit-scrollbar{
+  height: 8px;
+}
+
+.stadiums::-webkit-scrollbar-thumb{
+  background:blue;
 }
 .stadiums img{
   width:700px;
@@ -120,5 +129,6 @@ header {
 .stadiums p{
   font-size:30px;
   padding-left: 40px;
+  
 }
 
