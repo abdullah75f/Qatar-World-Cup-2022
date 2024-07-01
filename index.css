@@ -8,6 +8,7 @@ header {
   justify-content: space-between;
   padding: 4px;
   border-bottom: solid 2px white;
+ 
   
 }
 
@@ -52,12 +53,26 @@ header {
   color: green;
 }
 
-main{
+.part1{
   display:flex;
+  justify-content: space-between;
 }
+
+
 
 .intro{
   display:block;
   color:green;
+  text-align:center
 
+}
+.final-summary{
+  background:rgb(3, 4, 39);
+  
+
+  
+}
+
+.qatar-logo img{
+  width:4 px;
 }
