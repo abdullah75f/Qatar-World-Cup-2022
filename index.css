@@ -100,3 +100,25 @@ header {
   text-align:center;
 }
 
+.stadiums{
+  display:flex;
+  gap:40px;
+  margin:10px 30px;
+
+}
+.stadiums img{
+  width:700px;
+  
+}
+
+.stadiums h2{
+  font-size:50px;
+  padding-left: 40px;
+}
+
+
+.stadiums p{
+  font-size:30px;
+  padding-left: 40px;
+}
+
