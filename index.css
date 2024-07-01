@@ -62,40 +62,40 @@ header {
 
 }
 .final-summary{
-  padding:10px;
+  margin: 0px;
+  padding:0px;
   width:700px;
+  background:rgb(3, 4, 39);
 }
 .final-summary p{
   width:100%;
-  margin:0;
+  margin-bottom:20px;
   padding:0;
 }
 
 .qatar-logo{
   margin-top:100px;
-  margin-left: 50px;;
+  margin-left: 10px;
   padding:10px;
   width:700px;
 
 }
 .qatar-logo img{
-  width:500px;
+  width:700px;
+  margin-left: 0px;
 }
 
 
 .intro{
   display:block;
-  color:green;
-  text-align:center
+  color:white;
+  text-align:center;
+  margin-bottom: 0px;
 
 }
-.final-summary{
-  background:rgb(3, 4, 39);
-  
 
-  
+.audio{
+  display:block;
+  text-align:center;
 }
 
-.qatar-logo img{
-  width:4 px;
-}
