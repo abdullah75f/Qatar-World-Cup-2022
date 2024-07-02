@@ -171,6 +171,11 @@ header {
   width:100%;
 }
 
+
+.foot{
+  display:flex;
+  justify-content:space-around
+}
 .foot img{
   width:30px;
   height:auto;
@@ -180,5 +185,7 @@ header {
 .foot span{
   display:inline;
 }
+
+
 
 
