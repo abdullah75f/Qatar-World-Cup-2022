@@ -171,10 +171,16 @@ header {
   width:100%;
 }
 
+.videos p{
+  text-align: center;
+  font-size:  24px;
+}
+
 
 .foot{
   display:flex;
-  justify-content:space-around
+  justify-content:space-around;
+  background:rgb(3, 4, 39);
 }
 .foot img{
   width:30px;
@@ -204,6 +210,20 @@ header {
   margin-right: 3px;
   
 
+}
+.foot > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  margin-bottom: 10px; /* Adds space between each item for better readability */
+}
+
+.item img {
+  margin-right: 10px; /* Adds some space between the image and the description */
 }
 
 
