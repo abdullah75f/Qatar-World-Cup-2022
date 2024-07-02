@@ -171,7 +171,14 @@ header {
   width:100%;
 }
 
-.foot .contact img{
+.foot img{
+  width:30px;
+  height:auto;
   display:block;
 }
+
+.foot span{
+  display:inline;
+}
+
 
