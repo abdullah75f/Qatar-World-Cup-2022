@@ -66,3 +66,56 @@ body {
     margin-bottom: 0px;
     margin-top:100px;
   }
+
+
+.foot{
+  display:flex;
+  justify-content:space-around;
+  background:rgb(3, 4, 39);
+}
+.foot img{
+  width:30px;
+  height:auto;
+  display:block;
+}
+
+.foot span{
+  display:inline;
+}
+
+
+
+.copyright{
+  text-align:center;
+  border-top:solid white 1px;
+  position:relative;
+  top:50px;
+  font-size: 12px;
+
+  }
+  .copyright p{
+    margin-top:0px;
+  }
+.copyright p::before{
+  content: "\00A9";
+  margin-right: 3px;
+  
+
+}
+.foot > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  margin-bottom: 10px; /* Adds space between each item for better readability */
+}
+
+.item img {
+  margin-right: 10px; /* Adds some space between the image and the description */
+}
+
+
+
