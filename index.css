@@ -190,12 +190,18 @@ header {
 
 .copyright{
   text-align:center;
-  border-top:solid white 5px;
-  
-}
+  border-top:solid white 1px;
+  position:relative;
+  top:50px;
+  font-size: 12px;
+
+  }
+  .copyright p{
+    margin-top:0px;
+  }
 .copyright p::before{
   content: "\00A9";
-  margin-right: 5px;
+  margin-right: 3px;
   
 
 }
