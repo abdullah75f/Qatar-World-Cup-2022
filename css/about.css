@@ -25,7 +25,38 @@
 }
 .about .aboutus .aboutimage img{
     width:700px;
+   
     
    
     
 }
+
+.about .aboutme{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+   
+    
+}
+
+.about .aboutus .aboutnote{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:black;
+    padding:20px;
+    height:100%;
+    border-radius:20px;
+    margin-top:20px;
+    
+   
+    
+}
+.about .aboutme .aboutimage img{
+    width:700px;
+    height:700px;
+   
+    
+   
+    
+}
+
