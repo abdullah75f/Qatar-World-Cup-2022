@@ -40,3 +40,19 @@
     
 
 }
+
+.unexpected{
+    display:flex;
+    justify-content:space-evenly;
+    margin-left:20px;
+    gap:20px;
+    background: bluelack;
+
+   
+}
+
+.unexpected img{
+    width:400px;
+}
+
+
