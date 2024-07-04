@@ -14,21 +14,48 @@
     
 }
 
-.game{
+.groups .A .game{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: calc(100% - 20px); 
+    margin-top:0 10px;
+    background-color: rgb(71, 70, 70);
+    
 }
 
 .groups .A{
     transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for transform and box-shadow */
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
 }
 
 .groups .A:hover {
-    transform: scale(1.05); /* Zoom effect on hover */
+    transform: scale(1.1); /* Zoom effect on hover */
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.75); /* More pronounced white shadow on hover */
+}
+
+
+
+
+.groups .A .game:nth-child(odd){
+    background-color: rgb(71, 70, 70);
+    margin-left:10px;
+
+    margin-right: 10px;
+      
+}
+
+
+.groups .A .game:nth-child(even){
+    background-color:rgb(26, 26, 26);
+    margin-left:10px;
+    margin-right: 10px;
+    
+   
+   
 }
 
 .groups h1{
     text-align:center;
+    border-bottom: solid 1px white;
+    margin-bottom:0px;
 }
