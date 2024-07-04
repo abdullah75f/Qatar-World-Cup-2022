@@ -1,62 +1,47 @@
-
-.about{
-    background-color:rgba(46, 40, 40, 0.377);
-
+.about {
+  background-color: rgba(46, 40, 40, 0.377);
 }
-.about .aboutus{
-    display:flex;
-    justify-content:space-between;
-    gap:50px;
-   
-    
+.about .aboutus {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
 }
 
-.about .aboutus .aboutnote{
-    display:flex;
-    justify-content:space-evenly;
-    background-color:black;
-    padding:20px;
-    height:100%;
-    border-radius:20px;
-    margin-top:20px;
-    
-   
-    
+.about .aboutus .aboutnote {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 20px;
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
 }
-.about .aboutus .aboutimage img{
-    width:700px;
-   
-    
-   
-    
+.about .aboutus .aboutimage img {
+  width: 700px;
 }
 
-.about .aboutme{
-    display:flex;
-    justify-content:space-between;
-    gap:50px;
-   
-    
+.about .aboutme {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
 }
 
-.about .aboutus .aboutnote{
-    display:flex;
-    justify-content:space-evenly;
-    background-color:black;
-    padding:20px;
-    height:100%;
-    border-radius:20px;
-    margin-top:20px;
-    
-   
-    
+.about .aboutme .aboutnote {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 20px;
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
 }
-.about .aboutme .aboutimage img{
-    width:700px;
-    height:700px;
-   
-    
-   
-    
+.about .aboutme .aboutimage img {
+  width: 400px;
+  height: 400px;
+}
+
+.about .black{
+    background-color: black;
+    height:50px;
 }
 
