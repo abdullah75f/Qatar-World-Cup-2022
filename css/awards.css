@@ -3,6 +3,7 @@
     justify-content:space-around;
     gap:20px;
     flex-wrap:wrap;
+    margin-bottom:40px;
     
 }
 
@@ -24,4 +25,9 @@
     text-align:center;
     margin-top:0px;
     margin-bottom:0px;
+}
+
+.awards .trophy .spanning{
+    display:flex;
+    justify-content:space-around;
 }
