@@ -31,3 +31,7 @@
     transform: scale(1.05); /* Zoom effect on hover */
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.75); /* More pronounced white shadow on hover */
 }
+
+.groups h1{
+    text-align:center;
+}
