@@ -17,3 +17,16 @@
 .iconic::-webkit-scrollbar-track {
     background-color: #100101; /* Color of the scrollbar track */
 }
+
+
+.iconicmoments{
+    display:flex;
+    justify-content: space-between;
+    margin-left:50px;
+    gap:20px;
+}
+.iconicmoments img{
+    width:500px;
+    height:400px;
+    border:solid white 2px;
+}
