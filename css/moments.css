@@ -1,3 +1,5 @@
 .iconicgoals{
     display:flex;
+    overflow-x:auto;
+    
 }
