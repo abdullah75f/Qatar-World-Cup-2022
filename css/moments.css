@@ -46,7 +46,7 @@
     justify-content:space-evenly;
     margin-left:20px;
     gap:20px;
-    background: bluelack;
+    background-color: rgb(1, 4, 50);
 
    
 }
@@ -55,4 +55,8 @@
     width:400px;
 }
 
+
+.unexpected h1{
+    text-align:center;
+}
 
