@@ -1,5 +1,19 @@
 .iconicgoals{
     display:flex;
-    overflow-x:auto;
-    
+    overflow-x:scroll;
+   
+}
+
+.iconicgoals::-webkit-scrollbar{
+    -webkit-appearance: none;
+    height: 15px;
+
+}
+.iconicgoals::-webkit-scrollbar-thumb {
+    background-color: rgb(1, 1, 114); 
+    border-radius: 0px
+}
+
+.iconicgoals::-webkit-scrollbar-track {
+    background-color: #100101; /* Color of the scrollbar track */
 }
