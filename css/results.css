@@ -15,18 +15,15 @@
 }
 
 .game{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    
 }
-
 
 .groups .A{
-   
-    transition:transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5); /* White shadow */
-    
+    transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for transform and box-shadow */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
 }
+
 .groups .A:hover {
     transform: scale(1.05); /* Zoom effect on hover */
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.75); /* More pronounced white shadow on hover */
