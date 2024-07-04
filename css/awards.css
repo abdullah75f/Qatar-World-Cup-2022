@@ -7,12 +7,15 @@
 }
 
 .awards .trophy {
-    width:700px;
-    transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for transform and box-shadow */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
+    margin-top:20px;
+    width:400px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border-radius:20px;
+    background-color: rgb(25, 24, 24);
 
 }
 .awards .trophy img{
-    width:700px;
+    width:400px;
     
 }
