@@ -1,1 +1,18 @@
-.awards .trophy;
+.awards{
+    display:flex;
+    justify-content:space-around;
+    gap:20px;
+    flex-wrap:wrap;
+    
+}
+
+.awards .trophy {
+    width:700px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for transform and box-shadow */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
+
+}
+.awards .trophy img{
+    width:700px;
+    
+}
