@@ -4,21 +4,30 @@
     flex-wrap: wrap;
     align-content:flex-start;
     width:100%;
+    gap:30px;
+    margin-top:30px;
 }
 
 .groups div {
-    width: calc(33.33% - 20px); 
-    margin:5px;
+    width: 400px;
+    
     
 }
 
 .game{
     display:flex;
     justify-content: space-between;
+    
 }
 
 
 .groups .A{
+   
+    transition:transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5); /* White shadow */
     
-    border: solid 1px white;
+}
+.groups .A:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.75); /* More pronounced white shadow on hover */
 }
