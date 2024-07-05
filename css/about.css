@@ -1,32 +1,39 @@
 .about {
-  background-color: rgba(46, 40, 40, 0.377);
+  background-color: black;
 }
 .about .aboutus {
   display: flex;
   justify-content: space-between;
   gap:10px;
+  background-color: rgb(31, 31, 33);
 }
 
 .about .aboutus .aboutnote {
   display: flex;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: rgb(6, 6, 14);
   padding: 20px;
   height: 100%;
   border-radius: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  
+  margin-bottom: 40px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.8rem;
 }
 .about .aboutus .aboutimage img {
   width: 700px;
+  padding: 20px;
+  border-radius: 40px;
+  margin-bottom: 40px;
+  
 }
 
 .about .aboutme {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  background-color: rgb(31, 31, 33);
+  
 }
 
 .about .aboutme .aboutnote {
@@ -37,6 +44,8 @@
   height: 100%;
   border-radius: 20px;
   margin-top: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.8rem;
   
 }
 .about .aboutme .aboutimage img {
@@ -47,10 +56,13 @@
 .about .black{
     background-color: black;
     height:50px;
+    
 }
 
 .about .intro{
   font-size: 3rem;
+  background-color: rgb(31, 31, 33);
+  
 
 }
 
