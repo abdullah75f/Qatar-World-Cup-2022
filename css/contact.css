@@ -3,5 +3,12 @@
     box-shadow :0 0px  8px white;
     padding:30px;
     border-radius: 30px;
+    text-align:center;
+    margin:auto;
+    margin-top:20px;
+    font-size: 1.8rem;
+    width:750px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
+
