@@ -15,5 +15,13 @@
 .contactflex{
     display:flex;
     justify-content:space-around;
+    margin:30px;
 }
 
+.contactflex img{
+    width:30px;
+}
+
+.contactflex .t{
+    box-shadow :0 0px  4px white;
+}
