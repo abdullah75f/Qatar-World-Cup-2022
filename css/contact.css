@@ -4,7 +4,7 @@
   padding: 30px;
   border-radius: 30px;
   text-align: start;
-  margin:auto;
+  margin: auto;
   margin-top: 20px;
   font-size: 1.8rem;
   width: 950px;
@@ -13,16 +13,12 @@
 
 .contactflex {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   margin-top: 30px;
   margin-bottom: 50px;
-  margin-left:250px ;
-  gap:50px;
-  
+  margin-left: 250px;
+  gap: 50px;
 }
-
-
-
 
 .contactflex img {
   width: 30px;
@@ -40,7 +36,7 @@
 }
 .contactflex .address ul li {
   display: flex;
-  
+
   margin-bottom: 10px;
 }
 .contactflex .address li a {
@@ -50,19 +46,25 @@
   text-decoration: none;
 }
 
+.contactflex .address li a span {
+  padding-top: 5px;
+}
+
 .feedback {
   display: flex;
   flex-direction: column;
+
   gap: 50px;
   justify-content: space-around;
-  
   padding-left: 20px;
   border-radius: 10px;
+}
+.feedback h1 {
+  margin-bottom: 0px;
 }
 
 .feedback label {
   display: block;
-  margin-bottom: 20px;
 }
 
 .feedback input[type="submit"] {
@@ -73,11 +75,13 @@
   border-radius: 10px;
 }
 
+
+
 .contactflex .address li a:hover {
   color: white;
   text-decoration: none;
- 
-  border-radius:20;
+
+  border-radius: 20;
 
   background-color: gray;
 }
@@ -86,5 +90,3 @@
   width: 450px;
   height: 40px;
 }
-
-
