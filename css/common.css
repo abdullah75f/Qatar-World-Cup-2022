@@ -1,137 +1,119 @@
 body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-  }
-  header {
-    display: flex;
-    height: 4rem;
-    justify-content: space-between;
-    padding:  4px;
-    border-bottom: solid 2px white;
-    position:fixed;
-    width: 100%; 
-    z-index:1000;
-    background-color:black;
-    top:0px;
-    left:0px;
-    right:0px;
-    
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    gap: 4px;
-  }
-  
-  .logo h1 {
-    font-size: 3rem;
-    
-  }
-  
-  .logo img {
-    height: 100%;
-    border-radius: 50%;
-  }
-  
-  .navbar ul {
-    display: flex;
-    gap: 24px;
-    list-style: none;
-  }
-  .navbar li {
-    border-radius: 10px;
-    border: solid 1px white;
-    padding: 5px;
-  }
-  
-  .navbar li:hover {
-    background-color: blue;
-    transition-duration: 1s;
-  }
-  .navbar a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .navbar a:active {
-    color: green;
-  }
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+header {
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  padding: 4px;
+  border-bottom: solid 2px white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
 
-  .intro {
-    display: block;
-    color: white;
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top:100px;
-  }
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 4px;
+}
 
+.logo h1 {
+  font-size: 3rem;
+}
 
-.foot{
-  display:flex;
-  justify-content:start;
-  background-color:rgb(4, 4, 20) ;
-  padding-left:250px;
+.logo img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.navbar li {
+  border-radius: 10px;
+  border: solid 1px white;
+  padding: 5px;
+}
+
+.navbar li:hover {
+  background-color: blue;
+  transition-duration: 1s;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:active {
+  color: green;
+}
+
+.intro {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+.foot {
+  display: flex;
+  justify-content: start;
+  background-color: rgb(4, 4, 20);
+  padding-left: 250px;
   font-size: 1.1rem;
   color: aliceblue;
-  margin-bottom:0px;
-
-
+  margin-bottom: 0px;
 }
 
-
-
-.foot img{
-  width:30px;
-  height:auto;
-  
+.foot img {
+  width: 30px;
+  height: auto;
 }
-.foot .feet a{
-  display:flex;
-  gap:20px;
+.foot .feet a {
+  display: flex;
+  gap: 20px;
 }
-.foot .feet a:hover{
+.foot .feet a:hover {
   color: white;
   text-decoration: none;
 
   border-radius: 10px;
 
   background-color: gray;
-
 }
 
-.foot .feet a{
+.foot .feet a {
   display: flex;
   gap: 10px;
   color: white;
   text-decoration: none;
-  margin-bottom:10px;
-  margin-left:40px;
-  
-
+  margin-bottom: 10px;
+  margin-left: 40px;
 }
 
-
-
-
-.copyright{
-  text-align:center;
-  border-top:solid white 1px;
-  position:relative;
-  top:20px;
+.copyright {
+  text-align: center;
+  border-top: solid white 1px;
+  position: relative;
+  top: 20px;
   font-size: 12px;
-  
-
-  }
-  .copyright p{
-    margin-top:0px;
-  }
-.copyright p::before{
+}
+.copyright p {
+  margin-top: 0px;
+}
+.copyright p::before {
   content: "\00A9";
   margin-right: 3px;
-  
-
 }
 .foot > div {
   display: flex;
@@ -147,5 +129,3 @@ body {
 .item img {
   margin-right: 10px; /* Adds some space between the image and the description */
 }
-
-
