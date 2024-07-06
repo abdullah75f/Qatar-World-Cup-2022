@@ -70,20 +70,47 @@ body {
 
 .foot{
   display:flex;
-  justify-content:space-around;
-  background:rgb(3, 4, 39);
+  justify-content:start;
+  background-color:rgb(4, 4, 20) ;
+  padding-left:250px;
+  font-size: 1.1rem;
+   color: aliceblue;
+
+
 }
+
 
 
 .foot img{
   width:30px;
   height:auto;
-  display:block;
+  
+}
+.foot .feet a{
+  display:flex;
+  gap:20px;
+}
+.foot .feet a:hover{
+  color: white;
+  text-decoration: none;
+
+  border-radius: 10px;
+
+  background-color: gray;
+
 }
 
-.foot span{
-  display:inline;
+.foot .feet a{
+  display: flex;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  margin-bottom:10px;
+  margin-left:40px;
+  
+
 }
+
 
 
 
@@ -91,7 +118,7 @@ body {
   text-align:center;
   border-top:solid white 1px;
   position:relative;
-  top:50px;
+  top:0px;
   font-size: 12px;
 
   }
