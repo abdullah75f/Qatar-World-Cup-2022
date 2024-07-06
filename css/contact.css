@@ -1,77 +1,59 @@
-.contactinfo{
-    background-color: rgb(24, 24, 26);
-    box-shadow :0 0px  8px white;
-    padding:30px;
-    border-radius: 30px;
-    text-align:center;
-    margin:auto;
-    margin-top:20px;
-    font-size: 1.8rem;
-    width:750px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+.contactinfo {
+  background-color: rgb(24, 24, 26);
+  box-shadow: 0 0px 8px white;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  width: 750px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.contactflex{
-    display:flex;
-    justify-content:space-around;
-    margin:30px;
-    
+.contactflex {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
 }
 
-.contactflex img{
-    width:30px;
+.contactflex img {
+  width: 30px;
 }
 
-.contactflex .t{
-    box-shadow :0 0px  4px white;
-    
+.contactflex .t {
+  box-shadow: 0 0px 4px white;
 }
 
 .contactflex .address {
-    width:auto;
-    padding-left:50px;
-    padding-right:50px;
-    
-    
-
+  width: auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-.contactflex .address ul li{
-    display:flex;
-    gap:20px;
-    margin-bottom:10px;
-
-    
-
+.contactflex .address ul li {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
 }
-.contactflex .address li a{
-    display:flex;
-    gap:20px;
-    
-
-    
-
+.contactflex .address li a {
+  display: flex;
+  gap: 20px;
 }
 
-.feedback{
-    display:flex;
-    flex-direction: column;
-    gap:50px;
-    justify-content:space-around;
-    margin:30px;
-    padding-left:20px;
-
-
-
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-around;
+  margin: 30px;
+  padding-left: 20px;
 }
 
-.feedback label{
-    display:block;
-    margin-bottom:20px;
+.feedback label {
+  display: block;
+  margin-bottom: 20px;
 }
 
-
-.feedback input[type="submit"]{
-    margin-bottom:20px;
+.feedback input[type="submit"] {
+  margin-bottom: 20px;
 }
-
