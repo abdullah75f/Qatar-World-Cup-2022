@@ -27,3 +27,16 @@
     box-shadow :0 0px  4px white;
     
 }
+
+.contactflex .address {
+    width:auto;
+    padding-left:50px;
+    padding-right:50px;
+    
+
+}
+.contactflex .address li{
+    height:50px;
+    
+
+}
