@@ -34,10 +34,14 @@
   display: flex;
   gap: 20px;
   margin-bottom: 10px;
+ 
+
 }
 .contactflex .address li a {
   display: flex;
   gap: 20px;
+  color:white;
+  text-decoration:none;
 }
 
 .feedback {
@@ -60,6 +64,6 @@
 
 
 .contactflex .address li a:hover{
-    color: white;
-    text-decoration:underline;
+    color: pink;
+    text-decoration:none;
 }
