@@ -53,4 +53,15 @@
 
 }
 
+.feedback{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+    justify-content:space-around;
+    margin:30px;
+
+
+
+}
+
 
