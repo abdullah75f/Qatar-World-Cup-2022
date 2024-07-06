@@ -58,6 +58,10 @@
 
 .feedback input[type="submit"] {
   margin-bottom: 20px;
+  width:200px;
+  background-color:rgb(98, 179, 98);
+  font-size:40px;
+  border-radius:10px;
 }
 
 .contactflex .address li a:hover {
