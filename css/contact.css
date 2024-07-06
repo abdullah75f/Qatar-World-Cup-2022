@@ -59,9 +59,14 @@
     gap:50px;
     justify-content:space-around;
     margin:30px;
+    padding-left:20px;
 
 
 
 }
 
+.feedback label{
+    display:block;
+    margin-bottom:20px;
+}
 
