@@ -74,7 +74,8 @@ body {
   background-color:rgb(4, 4, 20) ;
   padding-left:250px;
   font-size: 1.1rem;
-   color: aliceblue;
+  color: aliceblue;
+  margin-bottom:0px;
 
 
 }
@@ -118,8 +119,9 @@ body {
   text-align:center;
   border-top:solid white 1px;
   position:relative;
-  top:0px;
+  top:20px;
   font-size: 12px;
+  
 
   }
   .copyright p{
