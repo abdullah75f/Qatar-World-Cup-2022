@@ -2,14 +2,16 @@
 
 .part1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   margin: 10px;
+  margin-left:10px;
 }
 .final-summary {
   margin: 0px;
   padding: 10px 10px;
-  width: 550px;
-  background: rgb(3, 4, 39);
+  width: 800px;
+  background-color: rgb(3, 18, 31);
+  border-radius:20px;
 }
 .final-summary p {
   width: 100%;
