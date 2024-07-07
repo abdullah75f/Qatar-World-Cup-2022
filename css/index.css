@@ -1,40 +1,43 @@
-
-
 .part1 {
   display: flex;
   justify-content: start;
+  gap: 10px;
   margin: 10px;
-  margin-left:10px;
+  margin-left: 10px;
 }
 .final-summary {
   margin: 0px;
   padding: 10px 10px;
-  width: 800px;
+  width: 660px;
+
   background-color: rgb(3, 18, 31);
-  border-radius:20px;
+  border-radius: 20px;
 }
 .final-summary p {
   width: 100%;
   margin-bottom: 20px;
   padding: 0px;
+  font-size: 1.1rem;
 }
 
 .qatar-logo {
   margin-top: 100px;
   margin-left: 10px;
   padding: 10px;
-  width: 700px;
+  width: 600px;
 }
 .qatar-logo img {
   width: 700px;
   margin-left: 0px;
 }
 
-
-
 .audio {
   display: block;
   text-align: center;
+}
+
+.audio p {
+  font-size: 1.6rem;
 }
 
 .stadiums {
@@ -69,49 +72,42 @@
   padding-left: 40px;
 }
 
-
-.qualified-teams{
-  display:flex;
-  text-align:center;
-  justify-content:space-between;
-  margin:0px 100px;
-  
+.qualified-teams {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0px 100px;
 }
-
 
 .pot {
   position: relative;
-  padding-left: 20px; 
+  padding-left: 20px;
 }
 
 .pot::before {
-  content: ""; 
+  content: "";
   position: absolute;
-  left: 0; 
-  top: 0; 
-  bottom: 0; 
-  width: 10px; 
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 10px;
   background-color: white;
 }
 
-.qualify{
-  text-align:center;
-  padding-bottom:10px;
-
-}
-
-
-.music-videos{
-  text-align:center;
-  padding-bottom:10px;
-
-}
-.videos video{
-  width:100%;
-}
-
-.videos p{
+.qualify {
   text-align: center;
-  font-size:  24px;
+  padding-bottom: 10px;
 }
 
+.music-videos {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.videos video {
+  width: 100%;
+}
+
+.videos p {
+  text-align: center;
+  font-size: 24px;
+}
