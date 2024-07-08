@@ -1,6 +1,7 @@
 body {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  margin:0px;
 }
 header {
   display: flex;
@@ -106,12 +107,11 @@ header {
 .copyright {
   text-align: center;
   border-top: solid white 1px;
-  position: relative;
-  top: 20px;
   font-size: 12px;
 }
 .copyright p {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 .copyright p::before {
   content: "\00A9";
