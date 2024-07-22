@@ -18,12 +18,12 @@
 
 
 
-.groups .A{
+table{
     transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for transform and box-shadow */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
 }
 
-.groups .A:hover {
+table:hover {
     transform: scale(1.1); /* Zoom effect on hover */
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.75); /* More pronounced white shadow on hover */
 }
