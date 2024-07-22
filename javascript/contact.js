@@ -14,16 +14,6 @@ const submit_button = document.querySelector(".submit");
 
 console.log(submit_button);
 
-// const form = document.getElementById("myForm");
-
-// form.addEventListener("submit",(e)=>{
-//     e.preventDefault();
-    
-
-   
-
-// })
-
 
 submit_button.addEventListener("click",(e)=>{
     e.preventDefault();
