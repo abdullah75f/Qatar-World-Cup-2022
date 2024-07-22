@@ -10,12 +10,11 @@
 }
 
 table {
-  transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for transform and box-shadow */
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
-  font-size:25px;
-
-  width:400px;
-  height:auto;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  width: 400px;
+  height: auto;
 }
 
 table:hover {
@@ -23,26 +22,26 @@ table:hover {
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.75); /* More pronounced white shadow on hover */
 }
 .groups table th:first-child {
-    text-align: center;
-     
+  text-align: center;
 }
-
+.groups table td {
+  text-align: center;
+}
 
 tr td {
-    padding: 0 10px; /* Adjust the 10px value as needed */
-    
+  padding: 0 10px; /* Adjust the 10px value as needed */
 }
-
 
 .groups {
-    flex-basis: calc(33.333% - 20px); /* Adjusts each table's base size to fit 3 in a row, accounting for some margin */
-    margin: 10px; /* Optional: Adds some space between the tables */
-    table-layout: fixed; /* Ensures each column has equal width */
+  flex-basis: calc(
+    33.333% - 20px); 
+  margin: 10px; /* Optional: Adds some space between the tables */
+  table-layout: fixed; /* Ensures each column has equal width */
 }
-table tr:nth-child(n+3):nth-child(odd) {
-    background-color: #121212; /* Light grey for odd rows */
+table tr:nth-child(n + 3):nth-child(odd) {
+  background-color: #1b1a1a; 
 }
 
-table tr:nth-child(n+3):nth-child(even) {
-    background-color: #494949; /* White for even rows */
+table tr:nth-child(n + 3):nth-child(even) {
+  background-color: #0a01016b; 
 }
