@@ -112,3 +112,11 @@ input.w {
   height: 50px; /* Example height, adjust as needed */
   box-sizing: border-box;
 }
+
+.error{
+  display: none; 
+  margin-top: 8px; 
+  color:red;
+  font-size: 20px;
+
+}
