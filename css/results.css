@@ -15,14 +15,17 @@ table {
   font-size: 25px;
   width: 400px;
   height: auto;
+  padding:20px;
 }
 
 table:hover {
   transform: scale(1.1); /* Zoom effect on hover */
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.75); /* More pronounced white shadow on hover */
 }
-.groups table th:first-child {
+.groups table .x {
   text-align: center;
+  border-bottom:solid 2px white;
+  padding-top:15px;
 }
 .groups table td {
   text-align: center;
