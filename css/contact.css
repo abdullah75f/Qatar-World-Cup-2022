@@ -65,6 +65,8 @@
 
 .feedback label {
   display: block;
+  font-size:25px;
+  margin-bottom:5px
 }
 
 .feedback input[type="submit"] {
