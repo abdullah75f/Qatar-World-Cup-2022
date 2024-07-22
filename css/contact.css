@@ -76,6 +76,13 @@
   font-size: 40px;
   border-radius: 10px;
 }
+.feedback input[type="reset"] {
+  margin-bottom: 20px;
+  width: 200px;
+  background-color: rgb(98, 179, 98);
+  font-size: 40px;
+  border-radius: 10px;
+}
 
 
 
@@ -91,6 +98,12 @@
 .feedback .w {
   width: 450px;
   height: 40px;
+}
+
+.sr{
+  display:flex;
+  justify-content:space-evenly;
+
 }
  
 
