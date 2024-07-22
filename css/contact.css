@@ -109,7 +109,7 @@ input.w {
   box-sizing: border-box;
 }
 
-.error {
+.errorc, .errore, .errorn {
   display: none;
   margin-top: 8px;
   color: red;
