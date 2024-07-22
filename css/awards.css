@@ -40,11 +40,10 @@ main h1 {
   margin-bottom: 40px;
 }
 
-.my-dream-team .squad {
-  width: 100%;
+.my-dream-team table {
   height: 100%;
-  border: solid 1px white;
-  flex: 1;
+  font-size:30px;
+  line-height:1.5;
 }
 
 .my-dream-team .lineup p {
