@@ -105,5 +105,10 @@
   justify-content:space-evenly;
 
 }
- 
 
+
+input.w {
+  font-size: 20px; /* Adjust this value as needed to match the input box height */
+  height: 50px; /* Example height, adjust as needed */
+  box-sizing: border-box;
+}
