@@ -65,8 +65,8 @@
 
 .feedback label {
   display: block;
-  font-size:25px;
-  margin-bottom:5px
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 
 .feedback input[type="submit"] {
@@ -84,8 +84,6 @@
   border-radius: 10px;
 }
 
-
-
 .contactflex .address li a:hover {
   color: white;
   text-decoration: none;
@@ -100,12 +98,10 @@
   height: 40px;
 }
 
-.sr{
-  display:flex;
-  justify-content:space-evenly;
-
+.sr {
+  display: flex;
+  justify-content: space-evenly;
 }
-
 
 input.w {
   font-size: 20px; /* Adjust this value as needed to match the input box height */
@@ -113,10 +109,9 @@ input.w {
   box-sizing: border-box;
 }
 
-.error{
-  display: none; 
-  margin-top: 8px; 
-  color:red;
+.error {
+  display: none;
+  margin-top: 8px;
+  color: red;
   font-size: 20px;
-
 }

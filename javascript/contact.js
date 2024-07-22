@@ -1,5 +1,6 @@
 
+const error_name = document.querySelector(".errorn");
 
-document.addEventListener("DOMContentLoaded",(event)=>{
+const error_email = document.querySelector(".errore");
+const error_comment = document.querySelector(".errorc");
 
-});
