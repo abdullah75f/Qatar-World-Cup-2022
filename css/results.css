@@ -39,3 +39,10 @@ tr td {
     margin: 10px; /* Optional: Adds some space between the tables */
     table-layout: fixed; /* Ensures each column has equal width */
 }
+table tr:nth-child(n+3):nth-child(odd) {
+    background-color: #121212; /* Light grey for odd rows */
+}
+
+table tr:nth-child(n+3):nth-child(even) {
+    background-color: #494949; /* White for even rows */
+}
