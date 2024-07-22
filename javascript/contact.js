@@ -59,6 +59,7 @@ submit_button.insertAdjacentElement('afterend', newDiv);
 
   };
 
+  
   form.reset();
 
   // Optionally, hide error messages after form reset
