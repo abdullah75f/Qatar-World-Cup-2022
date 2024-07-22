@@ -15,7 +15,7 @@ table {
   font-size: 25px;
   width: 400px;
   height: auto;
-  padding:20px;
+  padding: 20px;
 }
 
 table:hover {
@@ -24,8 +24,8 @@ table:hover {
 }
 .groups table .x {
   text-align: center;
-  border-bottom:solid 2px white;
-  padding-top:15px;
+  border-bottom: solid 2px white;
+  padding-top: 15px;
 }
 .groups table td {
   text-align: center;
@@ -36,15 +36,14 @@ tr td {
 }
 
 .groups {
-  flex-basis: calc(
-    33.333% - 20px); 
+  flex-basis: calc(33.333% - 20px);
   margin: 10px; /* Optional: Adds some space between the tables */
   table-layout: fixed; /* Ensures each column has equal width */
 }
 table tr:nth-child(n + 3):nth-child(odd) {
-  background-color: #1b1a1a; 
+  background-color: #1b1a1a;
 }
 
 table tr:nth-child(n + 3):nth-child(even) {
-  background-color: #0a01016b; 
+  background-color: #0a01016b;
 }
