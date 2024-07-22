@@ -10,11 +10,14 @@ const error_comment = document.querySelector(".errorc");
 //submit button
 const submit_button = document.querySelector(".submit");
 
-console.log(submit_button);
+
+
+
 
 
 submit_button.addEventListener("click",(e)=>{
     e.preventDefault();
+    
     const nname = document.querySelector("#fullname").value;
     const email = document.querySelector("#email").value;
     const comment = document.querySelector("#comment").value;
@@ -23,18 +26,22 @@ submit_button.addEventListener("click",(e)=>{
     error_name.style.display = "block";
     error_email.style.display = "block"
     error_comment.style.display = "block"
+    newDiv.remove();
 
   }
   else if(nname === "" ){
         error_name.style.display = "block";
+        newDiv.remove();
   }
   else if (email === ""){
      error_email.style.display = "block"
+     newDiv.remove();
 
   }
 
   else if(comment === ""){
-     error_comment.style.display = "block"
+     error_comment.style.display = "block";
+     newDiv.remove();
 
   }
 
@@ -49,14 +56,22 @@ newDiv.style.color = "green";
 newDiv.style.fontSize = "30px";
 submit_button.insertAdjacentElement('afterend', newDiv);
 
-const form = document.getElementById('myForm');
-form.reset();
 
   };
+
+  form.reset();
+
+  // Optionally, hide error messages after form reset
+  error_name.style.display = "none";
+  error_email.style.display = "none";
+  error_comment.style.display = "none";
+
+
 
   
 
    
 
 });
+
 
