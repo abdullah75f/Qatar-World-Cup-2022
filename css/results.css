@@ -12,6 +12,10 @@
 table {
   transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for transform and box-shadow */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
+  font-size:25px;
+
+  width:400px;
+  height:auto;
 }
 
 table:hover {
@@ -24,3 +28,14 @@ table:hover {
 }
 
 
+tr td {
+    padding: 0 10px; /* Adjust the 10px value as needed */
+    
+}
+
+
+.groups {
+    flex-basis: calc(33.333% - 20px); /* Adjusts each table's base size to fit 3 in a row, accounting for some margin */
+    margin: 10px; /* Optional: Adds some space between the tables */
+    table-layout: fixed; /* Ensures each column has equal width */
+}
