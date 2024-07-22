@@ -9,10 +9,6 @@
   margin-bottom: 60px;
 }
 
-.groups div {
-  width: 400px;
-}
-
 table {
   transition: transform 0.1s ease, box-shadow 0.1s ease; /* Smooth transition for transform and box-shadow */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow evenly around */
@@ -22,13 +18,9 @@ table:hover {
   transform: scale(1.1); /* Zoom effect on hover */
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.75); /* More pronounced white shadow on hover */
 }
-
-th .tit {
-  text-align: center;
+.groups table th:first-child {
+    text-align: center;
+     
 }
 
-.groups h1 {
-  text-align: center;
-  border-bottom: solid 1px white;
-  margin-bottom: 0px;
-}
+
