@@ -26,22 +26,22 @@ submit_button.addEventListener("click",(e)=>{
     error_name.style.display = "block";
     error_email.style.display = "block"
     error_comment.style.display = "block"
-    newDiv.remove();
+    
 
   }
   else if(nname === "" ){
         error_name.style.display = "block";
-        newDiv.remove();
+        
   }
   else if (email === ""){
      error_email.style.display = "block"
-     newDiv.remove();
+     
 
   }
 
   else if(comment === ""){
      error_comment.style.display = "block";
-     newDiv.remove();
+     
 
   }
 
@@ -49,12 +49,12 @@ submit_button.addEventListener("click",(e)=>{
 
 
   else{
-    const newDiv = document.createElement("div");
-newDiv.innerHTML = "Thank you!!! we received your feedback.";
-newDiv.id = "newDiv";
-newDiv.style.color = "green";
-newDiv.style.fontSize = "30px";
-submit_button.insertAdjacentElement('afterend', newDiv);
+      const newDiv = document.createElement("div");
+      newDiv.innerHTML = "Thank you!!! we received your feedback.";
+      newDiv.id = "newDiv";
+      newDiv.style.color = "green";
+      newDiv.style.fontSize = "30px";
+      submit_button.insertAdjacentElement('afterend', newDiv);
 
 
   };
