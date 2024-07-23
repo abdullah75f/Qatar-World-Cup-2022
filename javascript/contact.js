@@ -22,7 +22,7 @@ submit_button.addEventListener("click",(e)=>{
   if (nnew) {
     nnew.remove();
 }
-  
+
    
     
     const nname = document.querySelector("#fullname").value;
