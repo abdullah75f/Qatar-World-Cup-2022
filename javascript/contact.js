@@ -29,6 +29,28 @@ submit_button.addEventListener("click",(e)=>{
     
 
   }
+
+  else if(nname === "" && email === "" ){
+    error_name.style.display = "block";
+    error_email.style.display = "block";
+
+  }
+
+  else if(nname === "" && comment === "" ){
+    error_name.style.display = "block";
+    error_comment.style.display = "block";
+
+  }
+
+  else if(email === "" && comment === "" ){
+    error_email.style.display = "block";
+    error_comment.style.display = "block";
+
+  }
+
+
+
+
   else if(nname === "" ){
         error_name.style.display = "block";
         
@@ -44,6 +66,8 @@ submit_button.addEventListener("click",(e)=>{
      
 
   }
+
+  
 
 
 
